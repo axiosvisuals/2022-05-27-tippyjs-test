@@ -50,6 +50,7 @@ export default {
           isProd: production,
         },
       }),
+      "process.env.NODE_ENV": JSON.stringify("production"),
     }),
     json(),
     svelte({

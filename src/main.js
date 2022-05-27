@@ -1,6 +1,6 @@
 import App from "./App.svelte";
 
-let target = document.querySelector("body");
+let target = document.querySelector("main");
 
 // *** Use with Webflow ***
 // let target;
