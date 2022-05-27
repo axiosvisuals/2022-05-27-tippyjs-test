@@ -45,6 +45,7 @@ export default function tooltip(node, params = {}) {
 
   console.log(tip);
   console.log(tip.reference);
+  console.log(followCursor);
 
   return {
     // If the props change, let's update the Tippy instance:
