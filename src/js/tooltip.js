@@ -31,7 +31,7 @@ export default function tooltip(node, params = {}) {
     interactiveBorder: 15,
     plugins: [followCursor],
     delay: [null, 100],
-    trigger: "click",
+    trigger: "mouseenter click",
     onShow(instance) {
       // Only display the tooltip if we have content
       if (!instance.props.content) {

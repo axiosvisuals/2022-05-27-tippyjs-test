@@ -52,8 +52,9 @@
   }
 
   #test {
-    width: 100%;
+    width: 80%;
     height: 50vh;
+    margin: 4rem auto;
     background: #f1f1f1;
   }
 </style>
