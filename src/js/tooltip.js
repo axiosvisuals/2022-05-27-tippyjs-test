@@ -29,6 +29,7 @@ export default function tooltip(node, params = {}) {
     arrow: false,
     interactive: true,
     interactiveBorder: 15,
+    followCursor: true,
     plugins: [followCursor],
     delay: [null, 100],
     trigger: "mouseenter click",
